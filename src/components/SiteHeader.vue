@@ -1,6 +1,7 @@
 <template>
 <div class="header container">
   <router-link :to="{ name: 'How to use'}"> How to use</router-link>
+  <router-link :to="{ name: 'How to use'}"> Contacts</router-link>
 </div>
 </template>
 
