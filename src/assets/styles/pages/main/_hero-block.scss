@@ -1,0 +1,92 @@
+.hero-block {
+  display: flex;
+  flex-direction: row;
+  padding-top: 88px;
+  justify-content: space-between;
+
+  &_text {
+    max-width: 520px;
+    width: 100%;
+
+    .head-text {
+      font-weight: 900;
+      font-size: 56px;
+      line-height: 62px;
+      letter-spacing: -0.02em;
+      color: #FFFFFF;
+
+      b {
+        color: #02C076;
+      };
+    }
+
+    .text-desc {
+      margin-top: 24px;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 28px;
+      color: #FFFFFF;
+    }
+  }
+
+  &_exchange {
+    .exchange-main_block {
+      width: 520px;
+      .buttons {
+        display: flex;
+        flex-direction: row;
+
+        &--item {
+          padding: 18px;
+          background: rgba(255, 255, 255, 0.03);
+          backdrop-filter: blur(27.1828px);
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 24px;
+          color: rgba(255, 255, 255, 0.38);
+          width: 100%;
+          text-align: center;
+          cursor: pointer;
+
+          &_active {
+            background: #29282A;
+            color: white;
+          }
+        }
+        .exchange {
+          border-radius: 20px 0 0 0;
+        }
+
+        .network {
+          border-radius: 0 20px 0 0;
+        }
+      }
+      .inputs {
+        border-radius: 0 0 20px 20px;
+        box-sizing: border-box;
+        padding: 16px 44px 44px;
+        background: #29282A;
+        backdrop-filter: blur(27.1828px);
+
+        .fixed-rate {
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          align-items: center;
+          margin-bottom: 20px;
+
+          &_text {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 24px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #02C076;
+            margin: 0 6px;
+          }
+        }
+      }
+    }
+  }
+}
