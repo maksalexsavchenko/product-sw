@@ -3,7 +3,7 @@
     <div
       v-for="(item, index) in advantages"
       :key="index"
-      class="advantages-block--items box text"
+      class="advantages-block--item"
     >
       <img :src="item.img" alt="" />
       <h1>{{ item.title }}</h1>
@@ -40,5 +40,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import "@/assets/styles/pages/main/_advantages-block.scss";
+@import "../../../assets/styles/pages/main/advantages-block";
 </style>
