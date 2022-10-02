@@ -38,6 +38,19 @@
                 </div>
                 <InfoIcon/>
               </div>
+              <input-select
+                  type="number"
+                  :value="inputs.youSend.value"
+                  :text="inputs.youSend.text"
+                  :coin="coinData"
+              />
+              <input-select
+                  type="number"
+                  :value="inputs.youGet.value"
+                  :text="inputs.youGet.text"
+                  :coin="coinData"
+                  :editable="false"
+              />
               <div class="main_button">
                 Exchange now
               </div>
@@ -54,12 +67,28 @@
 <script>
 import FixedRateIcon from "@/assets/img/icons/FixedRateIcon";
 import InfoIcon from "@/assets/img/icons/InfoIcon";
+import InputSelect from "@/components/InputSelect";
 export default {
   name: "HeroBlock",
-  components: {InfoIcon, FixedRateIcon},
+  components: {InputSelect, InfoIcon, FixedRateIcon},
   data() {
     return {
-      currentTab: 'exchange'
+      currentTab: 'exchange',
+      inputs: {
+        youSend: {
+          value: '0.750089',
+          text: 'You send'
+        },
+        youGet: {
+          value: '12.55702267',
+          text: 'You get'
+        },
+      },
+      coinData: {
+        shortName: 'BTC',
+        network: 'BNC',
+        image: require('@/assets/img/Bitcoin.svg')
+      }
     }
   }
 }

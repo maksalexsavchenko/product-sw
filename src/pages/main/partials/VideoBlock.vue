@@ -74,7 +74,7 @@ export default {
     window.addEventListener("scroll", this.handleScroll);
     window.addEventListener("resize", this.mobileHandler);
   },
-  destroyed() {
+  unmounted() {
     window.removeEventListener("scroll", this.handleScroll);
   },
   mounted() {
@@ -84,10 +84,10 @@ export default {
     isMobile() {
       return window.screen.width < 760;
     },
-    mobileHandler(event) {
+    mobileHandler() {
       this.isMobDev = window.screen.width < 760;
     },
-    handleScroll(event) {
+    handleScroll() {
       if (window.scrollY > 400 && !this.isMobDev && this.animateHandler === true) {
         this.$refs.videoPopup.play();
         this.animateHandler = false;
