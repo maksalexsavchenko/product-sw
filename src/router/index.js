@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import MainPage from "@/pages/main/MainPage";
-import HowToUse from "@/pages/how-to-use/HowToUse";
+import HowToUsePage from "@/pages/how-to-use/HowToUsePage";
 
 const routes = [
   {
@@ -11,7 +11,7 @@ const routes = [
   {
     path: '/how-to-use',
     name: 'How to use',
-    component: HowToUse
+    component: HowToUsePage
   },
 ]
 
