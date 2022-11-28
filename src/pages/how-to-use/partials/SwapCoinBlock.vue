@@ -1,6 +1,6 @@
 <template>
-  <div class="section-n container">
-    <div class="section-n-container">
+  <div class="section-n">
+    <div class="container">
       <div class="h2">
         Swap any coin
       </div>
@@ -43,10 +43,10 @@
 
 <script>
 export default {
-  name: "SectionA"
+  name: "SwapCoinBlock"
 }
 </script>
 
 <style lang="scss">
-@import "@/assets/styles/pages/how-to-use/sections";
+@import "../../../assets/styles/pages/how-to-use/sections";
 </style>

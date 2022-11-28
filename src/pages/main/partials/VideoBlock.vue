@@ -1,5 +1,5 @@
 <template>
-<div class="home-video">
+<div class="video-block">
   <div class="app-section">
     <div class="container">
       <div class="app-section-text">

@@ -1,9 +1,7 @@
 <template>
-  <div>
-    <site-header />
-    <slot name="content"></slot>
-    <site-footer />
-  </div>
+  <site-header />
+  <slot name="content"></slot>
+  <site-footer />
 </template>
 
 <script>

@@ -1,23 +1,23 @@
 <template>
-  <div class="how-block container">
-    <div class="how-block-header">
+  <div class="how-to-use">
+    <div class="how-to-use-header">
       How to use
     </div>
-    <div class="how-block-bar">
+    <div class="how-to-use-plates">
       <div
-        v-for="(item, index) in questions"
-        :key="index"
-        class="how-block--item"
+          v-for="(item, index) in questions"
+          :key="index"
+          class="how-to-use-plates--item"
       >
-        <div>
-        <div class="how-block--item_title">
-          {{ item.title }}
+        <div class="desc">
+          <div class="desc-title">
+            {{ item.title }}
+          </div>
+          <div class="desc-text">
+            {{ item.text }}
+          </div>
         </div>
-        <div class="how-block--item_text">
-          {{ item.text }}
-        </div>
-        </div>
-        <div class="how-block--item_img">
+        <div class="img">
           <img :src="item.img" alt=""/>
         </div>
       </div>
@@ -27,7 +27,7 @@
 
 <script>
 export default {
-  name: "HowBlock",
+  name: "HeroHowToUse",
   data() {
     return {
       questions: [
@@ -58,5 +58,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import "@/assets/styles/pages/how-to-use/how-block";
+@import "../../../assets/styles/pages/how-to-use/how-block";
 </style>

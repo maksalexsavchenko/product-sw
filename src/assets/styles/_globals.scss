@@ -45,3 +45,14 @@ body {
 .fade-leave-to {
   opacity: 0;
 }
+
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+
+  &:hover {
+    color: #02C076;
+  }
+}

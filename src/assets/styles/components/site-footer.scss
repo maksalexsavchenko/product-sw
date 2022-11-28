@@ -4,27 +4,27 @@
   border-radius: 24px 24px 0px 0px;
   padding-top: 48px;
   padding-bottom: 87px;
-  margin-top: 120px;
-  font-family: 'Inter';
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
 
-  @media (max-width: 360px) {
-    height: 720px;
+  @media (max-width: 760px) {
     padding-top: 32px;
     padding-bottom: 49px;
-    margin-top: 64px;
   }
 
-  &-top {
+  &_top {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
-    @media (max-width: 360px) {
+    @media (max-width: 760px) {
       flex-direction: column;
     }
   }
 
-  .face {
-    @media (max-width: 360px) {
+  .info {
+    @media (max-width: 760px) {
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -33,13 +33,14 @@
     }
 
     &-logo {
-      @media (max-width: 360px) {
+      @media (max-width: 760px) {
         display: none;
       }
 
       &-mob {
         display: none;
-        @media (max-width: 360px) {
+
+        @media (max-width: 760px) {
           display: block;
         }
       }
@@ -53,9 +54,8 @@
       color: #FFFFFF;
       margin-top: 32px;
 
-      @media (max-width: 360px) {
+      @media (max-width: 760px) {
         max-width: 296px;
-        min-height: 60px;
         line-height: 20px;
         text-align: center;
       }
@@ -63,78 +63,88 @@
   }
 
   .nav {
-    display: flex;
-    margin-left: 148px;
+    &-menu {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 520px;
+      box-sizing: border-box;
 
-    @media (max-width: 360px) {
-      flex-direction: column-reverse;
-      align-items: center;
-      margin-left: 0;
+      @media (max-width: 760px) {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-top: 24px;
+      }
     }
 
-    .li {
+    &-links {
       display: flex;
-      margin-right: 48px;
-      @media (max-width: 360px) {
-        margin-right: 0;
-        margin-top: 42px;
-      }
+      max-width: 288px;
+      width: 100%;
+      justify-content: space-between;
 
-      :first-child{
-        margin-right: 48px;
+      @media (max-width: 760px) {
+        margin-top: 42px;
+        max-width: 280px;
       }
 
       &-block {
-        width: 120px;
+        max-width: 120px;
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        @media (max-width: 760px) {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
       }
 
       &-head {
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
-        color: rgba(238, 195, 195, 0.38);
-        @media (max-width: 360px) {
-          padding: 0 25%;
-        }
+        color: rgba(255, 255, 255, 0.38);
+        box-sizing: border-box;
       }
 
-      &-link {
+      &--item {
         font-weight: 700;
         font-size: 14px;
         line-height: 24px;
-        color: #FFFFFF;
-        margin-top: 12px;
-        @media (max-width: 360px) {
+        @media (max-width: 760px) {
           text-align: center;
         }
       }
     }
 
-    .social {
+    &-social {
+      display: flex;
       flex-direction: column;
-      
-      @media (max-width: 360px) {
-        margin-top: 24px;
-      }
+      width: 100%;
+      max-width: 184px;
 
-      &-bar {
+      &-block {
+        max-width: 184px;
+        box-sizing: border-box;
+        width: 100%;
         display: flex;
+        justify-content: space-between;
         margin-top: 16px;
       }
 
-      &-hd {
+      &-title {
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
-        color: rgba(238, 195, 195, 0.38);
-        text-align: center;
-      }
+        color: rgba(255, 255, 255, 0.38);
+        text-align: left;
 
-
-      &-icon:not(:first-child) {
-        margin-left: 8px;
-        @media (max-width: 360px) {
-          margin-left: 12px;
+        @media (max-width: 760px) {
+          text-align: center;
         }
       }
     }
@@ -144,7 +154,7 @@
     margin-top: 32px;
     display: flex;
 
-    @media (max-width: 360px) {
+    @media (max-width: 760px) {
       margin-top: 48px;
       flex-direction: column;
       justify-content: center;
@@ -158,7 +168,7 @@
       color: rgba(255, 255, 255, 0.38);
       margin-right: 32px;
 
-      @media (max-width: 360px) {
+      @media (max-width: 760px) {
         margin-right: 0;
         margin-bottom: 20px;
       }
@@ -166,10 +176,10 @@
 
     &-links {
       display: flex;
+      justify-content: space-between;
+      max-width: 201px;
+      width: 100%;
 
-      :first-child {
-        margin-right: 28px;
-      }
     }
 
     &-link {
