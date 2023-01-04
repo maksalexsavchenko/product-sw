@@ -1,0 +1,153 @@
+.terms-use {
+
+  &-page {
+    background: #FFF9E3;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 120px;
+
+    @media (max-width: 760px) {
+      margin-top: 0;
+      margin-bottom: 40px;
+    }
+
+    .text-block {
+      padding-top: 56px;
+
+      a {
+        color: rgba(10,87,193,1);
+        border-bottom: 1px solid rgba(27, 26, 28, 0.12);
+      }
+
+      @media (max-width: 760px) {
+        padding-top: 24px;
+      }
+    }
+  }
+
+  &-print {
+    background: white;
+
+    .button-layout {
+      position: absolute;
+      left: 1144px;
+      top: 88px;
+
+      @media (max-width: 760px) {
+        display: none;
+      }
+    }
+
+    .logo {
+
+      &-header {
+        text-align: center;
+        padding-top: 80px;
+
+        @media (max-width: 760px) {
+          padding-top: 32px;
+
+          img {
+            width: 121.61px;
+            height: 30px;
+          }
+        }
+      }
+
+      &-footer {
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 120px;
+
+        @media (max-width: 760px) {
+          padding-top: 48px;
+          padding-bottom: 32px;
+        }
+
+        img {
+          width: 259.44px;
+          height: 64px;
+
+          @media (max-width: 760px) {
+            width: 145.94px;
+            height: 36px;
+          }
+        }
+
+        &_subtitle {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 20px;
+          color: #1B1A1C;
+          opacity: 0.4;
+          margin-top: 20px;
+        }
+      }
+    }
+
+    .text-block {
+      padding-top: 40px;
+
+      @media (max-width: 760px) {
+        padding-top: 24px;
+      }
+    }
+  }
+}
+
+.button {
+
+  &-print {
+    width: 48px;
+    height: 48px;
+    background: #29282A;
+    border-radius: 8px;
+    position: absolute;
+    left: 1143px;
+    top: 132px;
+
+    img {
+      margin: 12px 12px;
+    }
+
+    @media (max-width: 760px) {
+      display: none;
+    }
+  }
+
+  &-layout {
+    display: flex;
+    align-items: center;
+    background: #29282A;
+    border-radius: 8px;
+    padding: 12px 12px;
+
+     &-text {
+      font-weight: 700px;
+      font-size: 16px;
+      line-height: 24px;
+      color: #FFF9E3;
+
+      &_print {
+        padding: 0 8px 0 12px;
+      }
+
+      &_support {
+        padding: 0 12px 0 8px;
+      }
+    }
+  }
+}
+
+.buttons-block {
+  display: flex;
+  justify-content: space-between;
+  max-width: 317px;
+  margin: 40px auto 0;
+  padding-bottom: 72px;
+
+  @media (max-width: 760px) {
+    max-width: 313px;
+    padding-bottom: 40px;
+  }
+}

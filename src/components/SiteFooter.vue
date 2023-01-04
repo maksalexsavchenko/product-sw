@@ -48,12 +48,14 @@
       </div>
       <div class="copyright">
         <div class="copyright-text">
-          Copyright © 2020 - 2022 Swapuz!
+          Copyright © 2020 - 2023 Swapuz!
         </div>
         <div class="copyright-links">
-          <div class="copyright-link">
-            Terms of Use
-          </div>
+          <router-link :to="{ name: 'Terms of use'}">
+            <div class="copyright-link">
+              Terms of Use
+            </div>
+          </router-link>
           <div class="copyright-link">
             Privacy Policy
           </div>
