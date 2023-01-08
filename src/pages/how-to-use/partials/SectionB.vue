@@ -1,6 +1,6 @@
 <template>
-  <div class="section-n container">
-    <div class="section-n-container">
+  <div class="section-n">
+    <div class="container">
       <div class="h2">
         Swap network
       </div>
@@ -56,5 +56,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import "@/assets/styles/pages/how-to-use/sections";
+@import "../../../assets/styles/pages/how-to-use/sections";
 </style>

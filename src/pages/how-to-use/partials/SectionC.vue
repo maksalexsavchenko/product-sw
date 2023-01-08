@@ -44,5 +44,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import "@/assets/styles/pages/how-to-use/sections";
+@import "../../../assets/styles/pages/how-to-use/sections";
 </style>

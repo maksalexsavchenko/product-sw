@@ -1,24 +1,26 @@
 <template>
   <div class="how-to-use">
-    <div class="how-to-use-header">
-      How to use
-    </div>
-    <div class="how-to-use-plates">
-      <div
-          v-for="(item, index) in questions"
-          :key="index"
-          class="how-to-use-plates--item"
-      >
-        <div class="desc">
-          <div class="desc-title">
-            {{ item.title }}
+    <div class="container">
+      <div class="how-to-use-header">
+        How to use
+      </div>
+      <div class="how-to-use-plates">
+        <div
+            v-for="(item, index) in questions"
+            :key="index"
+            class="how-to-use-plates--item"
+        >
+          <div class="desc">
+            <div class="desc-title">
+              {{ item.title }}
+            </div>
+            <div class="desc-text">
+              {{ item.text }}
+            </div>
           </div>
-          <div class="desc-text">
-            {{ item.text }}
+          <div class="img">
+            <img :src="item.img" alt=""/>
           </div>
-        </div>
-        <div class="img">
-          <img :src="item.img" alt=""/>
         </div>
       </div>
     </div>

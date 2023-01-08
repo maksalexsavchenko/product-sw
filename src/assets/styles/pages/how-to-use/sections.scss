@@ -1,14 +1,14 @@
 .section-n {
   margin-top: 120px;
 
-  @media (max-width: 360px) {
+  @media (max-width: 660px) {
     margin-top: 48px;
   }
 
   &-container {
     padding: 0 40px;
 
-    @media (max-width: 360px) {
+    @media (max-width: 660px) {
       padding: 0 16px;
     }
   }
@@ -19,7 +19,7 @@
     line-height: 62px;
     color: #FFFFFF;
 
-    @media (max-width: 360px) {
+    @media (max-width: 660px) {
       font-size: 36px;
       line-height: 38px;
     }
@@ -34,7 +34,7 @@
     color: #FFFFFF;
     margin-top: 40px;
 
-    @media (max-width: 360px) {
+    @media (max-width: 660px) {
       margin-top: 32px;
     }
 
@@ -46,7 +46,7 @@
       border-radius: 100%;
       margin-right: 16px;
 
-      @media (max-width: 360px) {
+      @media (max-width: 660px) {
         margin-right: 12px;
       }
     }
@@ -61,7 +61,7 @@
     opacity: 0.8;
     margin-top: 20px;
 
-    @media (max-width: 360px) {
+    @media (max-width: 660px) {
       margin-top: 16px;
     }
   }
@@ -70,7 +70,7 @@
     display: flex;
     justify-content: space-between;
 
-    @media (max-width: 360px) {
+    @media (max-width: 660px) {
       flex-direction: column;
     }
   }
@@ -81,7 +81,7 @@
     align-items: center;
     margin: 40px 64px;
 
-    @media (max-width: 360px) {
+    @media (max-width: 660px) {
       margin: 32px 40px;
 
       img {
@@ -94,7 +94,7 @@
     display: flex;
     margin-top: 56px;
 
-    @media (max-width: 360px) {
+    @media (max-width: 660px) {
       margin-top: 32px;
       flex-direction: column;
     }
@@ -102,7 +102,7 @@
     img {
       margin: 0 78px;
 
-      @media (max-width: 360px) {
+      @media (max-width: 660px) {
         margin: 42px 40px 0;
       }
     }
@@ -123,7 +123,7 @@
         margin-top: 0;
       }
 
-      @media (max-width: 360px) {
+      @media (max-width: 660px) {
         margin: 0 auto;
       }
     }
@@ -144,17 +144,17 @@
     border-radius: 8px;
     margin-top: 48px;
 
-    @media (max-width: 360px) {
+    @media (max-width: 660px) {
       margin: 0 auto;
     }
-    
+
     img {
       margin-left: 16px;
     }
   }
 
   .mob-hide {
-    @media (max-width: 360px) {
+    @media (max-width: 660px) {
       display: none;
     }
   }
@@ -162,7 +162,7 @@
   .mob-show {
     display: none;
 
-    @media (max-width: 360px) {
+    @media (max-width: 660px) {
       display: block;
     }
   }

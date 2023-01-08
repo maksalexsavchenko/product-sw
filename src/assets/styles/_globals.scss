@@ -5,12 +5,19 @@ body {
   padding: 0;
   background: #1B1A1C;
   font-family: 'Inter', sans-serif;
+  position: relative;
 }
 
 .container {
   max-width: 1080px;
   width: 100%;
   margin: 0 auto;
+  box-sizing: border-box;
+
+  @media (max-width: 660px) {
+    max-width: 100%;
+    padding: 16px;
+  }
 }
 
 .main_button {
