@@ -1,41 +1,46 @@
 <template>
-  <div class="section-n">
-    <div class="container">
-      <div class="h2">
+  <div class="swap-block container">
+    <div class="swap-block-content">
+      <h1>
         Swap any coin
-      </div>
-      <div class="section-n-content">
+      </h1>
+      <div class="swap-block-content_position">
         <div>
-          <div class="h3">
-            <div class="h3-num">1</div> Select coins an network
-          </div>
-          <div class="p">
+          <h2>
+            <div class="num">
+              1
+            </div>
+            Select coins an network
+          </h2>
+          <p>
             Swapuz provides the best exchange rate and Safely, anonymously and with no limits Fast crypto swaps, free of custodytransparent fee structure with no hidden fee. Swapuz provides the best exchange rate and transparent fee structure with Safely, anonymously and with no limits Fast crypto swaps, free of custodyno hidden fee.Swapuz provides the best exchange rate and transparent fee structure with no hidden fee.
-          </div>
-          <div class="p">
+          </p>
+          <p>
             Swapuz provides the best exchange rate and Safely, anonymously and with no limits Fast crypto swaps, free of custodytransparent fee structure with no hidden fee. Swapuz provides the best exchange rate and transparent fee structure with Safely, anonymously
-          </div>
-          <div class="h3">
-            <div class="h3-num">2</div> Enter the address
-          </div>
-          <div class="p">
+          </p>
+          <h2>
+            <div class="num">
+              2
+            </div> 
+          Enter the address
+          </h2>
+          <p>
             Swapuz provides the best exchange rate and Safely, anonymously and with no limits Fast crypto swaps, free of custodytransparent fee structure with no hidden fee. Swapuz provides the best exchange rate and transparent fee structure with Safely, anonymously
-          </div>
-          <div class="h3">
-            <div class="h3-num">3</div> Step Three
-          </div>
-          <div class="p">
+          </p>
+          <h2>
+            <div class="num">
+              3
+            </div>
+            Step Three
+          </h2>
+          <p>
             Swapuz provides the best exchange rate and Safely, anonymously and with no limits Fast crypto swaps, free of custodytransparent fee structure with no hidden fee. Swapuz provides the best exchange rate and transparent fee structure with Safely, anonymously Swapuz provides the best exchange rate and transparent fee structure with Safely, anonymously
-          </div>
+          </p>
         </div>
-        <div class="section-n_img-a">
-            <img src="@/assets/img/animation.svg" alt="">
-            <img src="@/assets/img/animationAlarm.svg" alt="">
+        <div class="swap-block-content_img-coin">
+          <img src="@/assets/img/testImg1.svg" alt="">
+          <img src="@/assets/img/testImg2.svg" alt="">
         </div>
-      </div>
-      <div class="section-n-button">
-        Lets try to swap
-        <img src="@/assets/img/icons/arrowForwardBlack.svg" alt="">
       </div>
     </div>
   </div>
@@ -48,5 +53,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../../../assets/styles/pages/how-to-use/sections";
+@import "../../../assets/styles/pages/how-to-use/swap-block";
 </style>

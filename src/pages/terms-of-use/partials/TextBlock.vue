@@ -127,34 +127,55 @@
       <div class="paragraph-text">
         For the correct identification of the assets, the user has to fill in the MEMO (tag, digital ID, note) field. Failure to comply with this condition or submitting the incorrect information may result to loss of assets Welcome to swapuzz.com These Terms and Conditions (“Terms”) apply to any access to, or use of, any services made available using the website swapuzz.com(“Site”), and to any other related services or materials provided by Swapuz (collectively “Services”). By accessing or using any Services, you agree to be bound by these Terms For the correct identification of the assets, the user has to fill in the MEMO (tag, digital ID, note) field. Failure to comply with this condition or submitting the incorrect information may result to loss of assets For the correct identification of the assets, the user has to fill in the MEMO (tag, digital ID, note) field. Failure to comply with this condition or submitting the incorrect information may result to loss of assets
       </div>
-      <ul class="paragraph-list">
-        <li class="paragraph-text">
-          Trading or holding digital currency is inherently risky and the risk of loss can be substantial. You should therefore carefully consider whether trading or holding digital currency is suitable for you in light of your financial circumstances
-        </li>
-        <li class="paragraph-text">
-          The fact that a digital currency is available on the Site or in connection with the use of the Services is not to be construed as an express or implied representation of Swapuz of any kind, including endorsement, warranty, approval, or disapproval of the value, integrity, security, or operation of that digital currency
-        </li>
-        <ul class="paragraph-list">
-          <li class="paragraph-text">
-            Understand and accept the risks associated with trading and holding digital currencies, and are responsible for conducting (and have conducted)
-          </li>
-          <li class="paragraph-text">
-            Acknowledge and accept that Exolix does not, and cannot
-          </li>
-          <li class="paragraph-text">
-            Have the requisite knowledge, experience, understanding, professional advice, and information
-          </li>
-          <li class="paragraph-text">
-            Acknowledge and accept the risks associated with trading and holding digital currencies
-          </li>
-          <li class="paragraph-text">
-            Have the requisite knowledge, experience, understanding, professional advice, and information to make your own evaluation of merits and risks of any trade before using any of the Services
-          </li>
+      <div class="paragraph-list">
+        <div class="paragraph-list_li">
+          <div class="paragraph-list_li-marker"></div>
           <div class="paragraph-text">
             Trading or holding digital currency is inherently risky and the risk of loss can be substantial. You should therefore carefully consider whether trading or holding digital currency is suitable for you in light of your financial circumstances
           </div>
-        </ul>
-      </ul>
+        </div>
+        <div class="paragraph-list_li">
+          <div class="paragraph-list_li-marker"></div>
+          <div class="paragraph-text">
+            The fact that a digital currency is available on the Site or in connection with the use of the Services is not to be construed as an express or implied representation of Swapuz of any kind, including endorsement, warranty, approval, or disapproval of the value, integrity, security, or operation of that digital currency
+          </div>
+        </div>
+        <div class="paragraph-list_sublist">
+          <div class="paragraph-list_li">
+            <div class="paragraph-list_li-marker"></div>
+            <div class="paragraph-text">
+              Understand and accept the risks associated with trading and holding digital currencies, and are responsible for conducting (and have conducted)
+            </div>
+          </div>
+          <div class="paragraph-list_li">
+            <div class="paragraph-list_li-marker"></div>
+            <div class="paragraph-text">
+              Acknowledge and accept that Exolix does not, and cannot
+            </div>
+          </div>
+          <div class="paragraph-list_li">
+            <div class="paragraph-list_li-marker"></div>
+            <div class="paragraph-text">
+              Have the requisite knowledge, experience, understanding, professional advice, and information
+            </div>
+          </div>
+          <div class="paragraph-list_li">
+            <div class="paragraph-list_li-marker"></div>
+            <div class="paragraph-text">
+              Acknowledge and accept the risks associated with trading and holding digital currencies
+            </div>
+          </div>
+          <div class="paragraph-list_li">
+            <div class="paragraph-list_li-marker"></div>
+            <div class="paragraph-text">
+              Have the requisite knowledge, experience, understanding, professional advice, and information to make your own evaluation of merits and risks of any trade before using any of the Services
+            </div>
+          </div>
+        </div>
+        <div class="paragraph-text retreat">
+          Trading or holding digital currency is inherently risky and the risk of loss can be substantial. You should therefore carefully consider whether trading or holding digital currency is suitable for you in light of your financial circumstances
+        </div>
+      </div>
     </div>
   </div>
 </template>

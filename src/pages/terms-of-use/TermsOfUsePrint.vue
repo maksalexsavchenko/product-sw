@@ -1,13 +1,16 @@
 <template>
   <div class="terms-use-print">
-    <div class="container">
-      <div class="button-layout">
-        <div class="button-layout-text">
-          <div class="button-layout-text_print">
-            Print
-          </div>
+    <div class="button-layout">
+      <div class="button-layout-text">
+        <div class="button-layout-text_print">
+          Print
         </div>
-        <img src="@/assets/img/icons/arrowForwardWhite.svg" alt="">
+      </div>
+      <img src="@/assets/img/icons/arrowForwardWhite.svg" alt="">
+    </div>
+    <div class="container">
+      <div class="button-mob">
+        <img src="@/assets/img/icons/printWhite.svg" alt="">
       </div>
       <div class="logo-header">
         <img src="@/assets/img/swapuzLogoBlack.svg" alt="">

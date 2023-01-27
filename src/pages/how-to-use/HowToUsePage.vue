@@ -3,8 +3,15 @@
     <template #content>
       <hero-how-to-use/>
       <SwapCoinBlock/>
-      <section-b/>
-      <section-c/>
+      <!-- button -->
+      <div class="container">
+        <div class="button-green">
+          Lets try to swap
+          <img src="@/assets/img/icons/arrowForwardBlack.svg" alt="">
+        </div>
+      </div>
+      <swap-network-block/>
+      <swap-coin-block/>
       <video-block/>
     </template>
   </MainLayout>
@@ -12,11 +19,10 @@
 
 <script>
 import MainLayout from "@/components/MainLayout";
-import SectionB from "@/pages/how-to-use/partials/SectionB";
-import SectionC from "@/pages/how-to-use/partials/SectionC";
 import VideoBlock from "@/pages/main/partials/VideoBlock";
 import HeroHowToUse from "@/pages/how-to-use/partials/HeroHowToUse";
 import SwapCoinBlock from "@/pages/how-to-use/partials/SwapCoinBlock.vue";
+import SwapNetworkBlock from "@/pages/how-to-use/partials/SwapNetworkBlock.vue";
 
 
 export default {
@@ -25,9 +31,8 @@ export default {
     SwapCoinBlock,
     HeroHowToUse,
     MainLayout,
-    SectionB,
-    SectionC,
-    VideoBlock
+    VideoBlock,
+    SwapNetworkBlock
   }
 }
 </script>
